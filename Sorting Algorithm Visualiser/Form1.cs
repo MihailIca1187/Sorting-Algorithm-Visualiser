@@ -55,10 +55,15 @@ namespace Sorting_Algorithm_Visualiser
             }
         }
 
-        private void Sort_Click(object sender, EventArgs e)
+        private void Sort_Click(object sender, EventArgs e) // When the sort button is pressed, the algorithm selected is ran
         {
-            ISortEngine se = new BubbleSort();
+            ISortEngine se = new InsertionSort();
             se.Sort(Array, graphics, panel1.Height);
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
