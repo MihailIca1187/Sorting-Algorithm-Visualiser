@@ -48,18 +48,7 @@ namespace Sorting_Algorithm_Visualiser
                 _sorted = true;
             }
         }
-       /* private void Swap(int i, int p) // Standard bubble sort swap method
-        {
-            int temp = Array[i];
-            Array[i] = Array[i + 1];
-            Array[i + 1] = temp;
-
-            graphics1.FillRectangle(BlackBrush, i, 0, 1, maxValue);
-            graphics1.FillRectangle(BlackBrush, p, 0, 1, maxValue);
-
-            graphics1.FillRectangle(WhiteBrush, i, maxValue - Array[i], 1, maxValue);
-            graphics1.FillRectangle(WhiteBrush, p, maxValue - Array[p], 1, maxValue);
-        }*/
+       
 
         private bool IsSorted() //function that validates whther the array is sorted or not
         {
