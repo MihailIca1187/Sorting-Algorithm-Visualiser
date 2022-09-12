@@ -26,7 +26,7 @@ namespace Sorting_Algorithm_Visualiser
 
             while (!_sorted)
             {
-                for(i=1;i<maxValue;i++)
+                for(i=1;i<Array.Count()-1;i++)
                 {
                     insert = Array[i];
                     j = i;
